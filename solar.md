@@ -1,5 +1,16 @@
 # Solarzellen vergleich
 
+Erwartete W/jahr = 1033*Wp
+=> pro Tag 2,83*Wp
+=> pro Stunde 0.1179*Wp 
+
+mindest W = max(V<sub>solar</sub>,V<sub>board</sub>)/min(V<sub>solar</sub>,V<sub>board</sub>)*V<sub>board</sub>*I<sub>target</sub>*0.1179
+für V<sub>solar</sub> = 2V
+und V<sub>board</sub> = 3.3V
+und I<sub>target</sub> = 0.01 A
+ergibt mindest W = 3.3/2*3.3*0.01*0.1179 = 0.0064 W
+
+
 ## Conrad
 
 | Marke             | Spannung | Strom  | Leistung | Dimensionen | Preis | Link |
